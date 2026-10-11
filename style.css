@@ -1,0 +1,91 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #030303, #616569);
+    color: white;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Cartão do perfil */
+.perfil {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.08);
+    padding: 35px 25px;
+    border-radius: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Foto */
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.479);
+    margin-bottom: 18px;
+}
+
+/* Nome */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Descrição */
+.descricao {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+/* Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.links a {
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+
+    background: #f8f8f8;
+    color: #243b55;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.links a:hover {
+    background: #60a5fa;
+    color: white;
+    transform: scale(1.04);
+}
+
+/* Rodapé */
+footer {
+    margin-top: 28px;
+    font-size: 12px;
+    color: #cbd5e1;
+}
